@@ -1,0 +1,10 @@
+body {
+    background-color: rgb(222, 221, 231);
+}
+.form-box {
+    display: none;
+}
+.form-box.active {
+    display: block !important;
+}
+

@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Adding bootstrap -->
+  <link rel="stylesheet" href="../static/css/bootstrap.css">
+  <link rel="stylesheet" href="../static/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../static/css/demo.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="mt-4 w-25 bg-white border text-center shadow container-fluid">
+    <h2 class="fw-bold">CAREER PREDICTION FORM</h2>
+  </div>
+
+  <div class="container mt-5 pt-5 me-5">
+    <form class="border w-50 bg-white p-5 shadow" id="form1" method="POST">
+      <!-- first start -->
+      <div class="row align-items-center justify-content-center my-5 form-box active">
+        <div class="mb-3 row col-sm-12">
+          <label for="Stream" class="col-sm-4 col-form-label ">Stream<span class="text-danger">*</span></label>
+        <div class="col-sm-8">
+          <select class="form-select" aria-label="Default stream options" name="stream" id="stream">
+            <option value="Engineering Technology and Science">Engineering Technology and Science</option>
+            <option value="Business and Commerce">Business and Commerce</option>
+            <option value="Arts and social science">Arts and social science</option>
+            <option value="Healthcare">Healthcare</option>
+            <!-- <option value="5">Five</option> -->
+          </select>
+        </div>
+      </div>
+        <div class="mt-5 pt-5">
+              <!-- For spacing -->
+        </div>
+        <a class="btn btn-outline-secondary btn-primary w-25 mt-5 text-white shadow next">Next</a>
+      </div>
+      <!-- first end -->
+
+      <!-- second start -->
+
+      <div class="row align-items-center justify-content-center my-5 form-box">
+        <div class="mb-3 row col-sm-12">
+          <label for="Subject1" class="col-sm-4 col-form-label ">Subject1<span class="text-danger">*</span> </label>
+          <div class="col-sm-8">
+            <select class="form-select" aria-label="Default select options" name="Subject1">
+              <option value="80-100%">80-100%</option>
+              <option value="70-80%">70-80%</option>
+              <option value="50-70%">50-70%</option>
+              <option value="Below 50%">Below 50%</option>
+            </select>
+          </div>
+        </div>
+        <div class="mb-3 row col-sm-12">
+          <label for="Subject2" class="col-sm-4 col-form-label ">Subject2<span class="text-danger">*</span> </label>
+          <div class="col-sm-8">
+            <select class="form-select" aria-label="Default select options" name="Subject2">
+              <option value="80-100%">80-100%</option>
+              <option value="70-80%">70-80%</option>
+              <option value="50-70%">50-70%</option>
+              <option value="Below 50%">Below 50%</option>
+            </select>
+          </div>
+        </div>
+        <div class="mb-3 row col-sm-12">
+          <label for="Subject3" class="col-sm-4 col-form-label ">Subject3<span class="text-danger">*</span> </label>
+          <div class="col-sm-8">
+            <select class="form-select" aria-label="Default select options" name="Subject3">
+              <option value="80-100%">80-100%</option>
+              <option value="70-80%">70-80%</option>
+              <option value="50-70%">50-70%</option>
+              <option value="Below 50%">Below 50%</option>
+            </select>
+          </div>
+        </div>
+        <div class="mb-3 row col-sm-12">
+          <label for="OptionalSubject1" class="col-sm-6 col-form-label ">Optional Subject1<span class="text-danger">*</span>
+          </label>
+          <div class="col-sm-6">
+            <select class="form-select" aria-label="Default select options" name="OptionalSubject1">
+              <option value="Geology">Geology</option>
+              <option value="Biology">Biology</option>
+              <option value="Management">Management</option>
+              <option value="Computer">Computer</option>
+              <option value="Government">Government</option>
+            </select>
+          </div>
+        </div>
+        <div class="mb-3 row col-sm-12">
+          <label for="OptionalSubject2" class="col-sm-6 col-form-label ">Optional Subject2<span class="text-danger">*</span>
+          </label>
+          <div class="col-sm-6">
+            <select class="form-select" aria-label="Default select options" name="OptionalSubject2">
+              <option value="Geology">Geology</option>
+              <option value="Biology">Biology</option>
+              <option value="Management">Management</option>
+              <option value="Computer">Computer</option>
+              <option value="Government">Government</option>
+            </select>
+          </div>
+        </div>
+        <div class="mt-5 pt-5">
+       <!-- For spacing -->
+        </div>
+        <a 
+          class="btn btn-outline-secondary btn-primary w-25 mt-5 text-white shadow mx-4 back">Previous</a>
+          <a  class="btn btn-outline-secondary btn-primary w-25 mt-5 text-white shadow next">Next</a>
+      </div>
+    <!-- second end -->
+
+    <!-- third start -->
+      <div class="row align-items-center justify-content-center my-5 form-box">
+        <div class="mb-3 row col-sm-12">
+          <label for="AoI1" class="col-sm-6 col-form-label ">Area of interest-1<span class="text-danger">*</span>
+          </label>
+          <div class="col-sm-6">
+            <select class="form-select" aria-label="Default select options"  name="AoI1" >
+              <option value="Government">Government</option>
+              <option value="Technology">Technology</option>
+              <option value="Education">Education</option>
+            </select>
+          </div>
+        </div>
+        <div class="mb-3 row col-sm-12">
+          <label for="AoI2" class="col-sm-6 col-form-label ">Area of interest-2<span class="text-danger">*</span>
+          </label>
+          <div class="col-sm-6">
+            <select class="form-select" aria-label="Default select options"  name="AoI2">
+              <option value="Government">Government</option>
+              <option value="Technology">Technology</option>
+              <option value="Education">Education</option>
+            </select>
+          </div>
+        </div>
+        <div class="mb-3 row col-sm-12">
+          <label for="AoI3" class="col-sm-6 col-form-label ">Area of interest-3<span class="text-danger">*</span>
+          </label>
+          <div class="col-sm-6">
+            <select class="form-select" aria-label="Default select options"  name="AoI3">
+              <option value="Government">Government</option>
+              <option value="Technology">Technology</option>
+              <option value="Education">Education</option>
+            </select>
+          </div>
+        </div>
+        <div class="mb-3 row col-sm-12">
+          <label for="PT1" class="col-sm-6 col-form-label ">Personality Traits<span class="text-danger">*</span>
+          </label>
+          <div class="col-sm-6">
+            <select class="form-select" aria-label="Default select options" name="PT1">
+              <option value="Investigative">Investigative</option>
+              <option value="Social">Social</option>
+              <option value="Realistic">Realistic</option>
+              <option value="Artistic">Artistic</option>
+              <option value="Conventional">Conventional</option>
+              <option value="Problem solving">Problem solving</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="mt-5 pt-5">
+          <!-- For spacing -->
+        </div>
+        <a 
+          class="btn btn-outline-secondary btn-primary w-25 mt-5 text-white shadow mx-4 back">Previous</a>
+          <a  class="btn btn-outline-secondary btn-primary w-25 mt-5 text-white shadow next">Next</a>
+      </div>
+
+
+    <!-- third end-->
+
+    <!-- fourth start -->
+      <div class="row align-items-center justify-content-center form-box">
+        <div class="mb-3 row">
+          <label for="OverallGPA" class="col-sm-6 col-form-label">Overall GPA<span
+              class="text-danger">*</span></label>
+          <div class="col-sm-6">
+            <input type="text" class="form-control" placeholder="Value(1-10)" id="OverallGPA" name="OverallGPA">
+          </div>
+        </div>
+        <div class="mb-3 row">
+          <label for="CommunicationSkills" class="col-sm-6 col-form-label">Communication Skills<span
+              class="text-danger">*</span></label>
+          <div class="col-sm-6">
+            <input type="text" class="form-control" placeholder="Value(1-10)" id="Communication Skills" name="CommunicationSkills">
+          </div>
+        </div>
+        <div class="mb-3 row">
+          <label for="StudyHours" class="col-sm-6 col-form-label">Study Hours<span
+              class="text-danger">*</span><br>(per week)</label>
+          <div class="col-sm-6">
+            <input type="text" class="form-control" placeholder="Value(1-20)" id="Study Hours" name="StudyHours">
+          </div>
+        </div>
+        <div class="mb-3 row">
+          <label for="CompetitiveExam" class="col-sm-6 col-form-label">Competitive Exam <br>GPA (if yes)</label>
+          <div class="col-sm-6">
+            <input type="text" class="form-control" placeholder="Value(1-10)" id="CompetitiveExam" name="CompetitiveExam">
+          </div>
+        </div>
+
+        <div class="mt-5 pt-5">
+              <!-- For spacing -->
+        </div>
+        <a 
+          class="btn btn-outline-secondary btn-primary w-25 mt-5 text-white shadow mx-4 back">Previous</a>
+
+        <button type="submit"
+          class="btn btn-outline-secondary btn-primary w-25 mt-5 text-white shadow mx-4 submit" id="submitButton">Submit</button>
+      </div>
+
+    </form>
+    <!-- fourth end -->
+  </div>
+  <!-- adding jquery -->
+  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+  crossorigin="anonymous"></script>  
+  <script src="../static/js/bootstrap.min.js"></script>
+  <script src="../static/js/demo.js"></script>
+  <script>
+    $(".submit").click(function (e) {
+    e.preventDefault();
+    var form=$("#form1").serialize();
+    console.log(form)
+    $.ajax({
+        type: "POST",
+        url: "https://9wm5de4i3h.execute-api.ca-central-1.amazonaws.com/dev/demo-for-form",                    ///// URL must be specified  
+        data: form,
+        success: function (response) 
+        {
+          alert(JSON.stringify(response));
+
+        },
+        error: function (ex) {
+            alert(ex.responseText);
+        }
+    });
+    return false; 
+});
+  </script>
+</body>
+
+</html>
